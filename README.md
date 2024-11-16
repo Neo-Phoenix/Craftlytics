@@ -1,6 +1,6 @@
 # Craftlytics
 
-Craftlytics is a Python program designed to analyze Minecraft crafting recipe JSON files. It calculates the crafting usage frequency of each item and block in Minecraft, providing insights into their versatility. The output can be used to optimize your Minecraft storage system or simply to better understand item importance.
+Craftlytics is a Python program designed to analyze extracted Minecraft crafting recipe JSON files from any modern version of the game. It calculates the frequency with which each item and block is used in crafting recipes, offering valuable insights into their versatility and importance. By considering changes across Minecraft versions, the output can help you optimize your Minecraft storage system, prioritize frequently used items, and better understand which resources are essential for crafting efficiency.
 
 ---
 
