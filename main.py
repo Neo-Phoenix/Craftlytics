@@ -1,4 +1,7 @@
 import argparse
+from parser import *
+from tracker import *
+from exporter import *
 
 def main():
     parser = argparse.ArgumentParser(
@@ -10,7 +13,8 @@ def main():
 
     args = parser.parse_args()
     if args.analyze:
-        # parser.py load in jsons from 'all_crafting_recipes_24w46a'
+        # parser.py load in jsons from 'recipes'
+        loadJsons()
 
         # tracker.py
         # decodes to a dictionary containing type/categories, 
